@@ -1,12 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>Venda Livros</title>
 </head>
+
 <body>
-    
+    <header>
+        <div class="container-fluid p-5 bg-primary text-white ">
+            <h1>Ember Livros</h1>
+            <p>Venda seus livros aqui!</p>
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#livros">Livros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Venda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="p-5 col-sm-12" id="livros">
+                <h2 class="text-center">Livros</h2>
+            </div>
+            <div class="col-sm-4">
+                <h3>O conde de Monte Cristo</h3>
+                <p>Autor(a): Alexandre Dumas</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>A Dança dos Dragões - Cronicas de Gelo e Fogo</h3>
+                <p>Autor(a): George R. R. Martin</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Pixote: Infância dos mortos</h3>
+                <p>Autor(a): José Louzeiro</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
